@@ -201,6 +201,7 @@ nav ul li {
     height: 348px;
     background-image: url(../assets/slics/about-me-background-iamge.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .custom-about img {
@@ -242,15 +243,68 @@ form {
     height: 100%;
 }*/
 
-/*@media only screen and (min-width:280px) and (max-width:600px) {
+@media only screen and (min-width:280px) and (max-width:600px) {
     .carousel-item {
-        height: 220px;
+        height: 190px;
     }
 
     .carousel-item img {
         height: 100%;
     }
-}*/
+
+    /*service*/
+    #mission {
+        padding-bottom: 0px;
+    }
+    .custom-service-col {
+        padding-top: 20px;
+    }
+    .custom-service-p {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 10px;
+    }
+    .custom-mission-p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 0px;
+    }
+    .custom-about {
+        margin-top: 25px;
+    }
+    .custom-about img {
+        width: 95%;
+        height: 110px;
+    }
+    .custom-about-p {
+        font-size: 15px;
+        padding-top: 16px!important;
+        padding-left: 32px!important;
+        padding: 0px;
+    }
+
+    /*contact us*/
+    .custom-form1 {
+        width: 89%;
+        padding-left: 43px;
+        margin-left: 25px;
+
+    }
+    .custom-form2 {
+        width: 89%;
+        padding-left: 43px;
+        margin-left: 25px;
+    }
+    .custom-textarea {
+        width: 88%;
+        margin-left: 27px;
+    }
+    .custom-about-contact-col {
+        width: 92%;
+        height: 368px;
+    }
+
+}
 
 /*
 .carousel1,
