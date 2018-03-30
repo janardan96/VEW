@@ -190,6 +190,50 @@ nav ul li {
     background-color: white;
 }
 
+/*--about--*/
+
+.custom-about {
+    margin-top: 50px;
+}
+
+.custom-about-contact-col {
+    width: 92%;
+    height: 348px;
+    background-image: url(../assets/slics/about-me-background-iamge.jpg);
+    background-repeat: no-repeat;
+}
+
+.custom-about img {
+    width: 97%;
+    margin-left: 15px;
+}
+
+.custom-about-p {
+    font-size: 15px;
+    padding: 15px 50px;
+}
+
+form {
+    padding-top: 30px;
+}
+
+.custom-form1 {
+    width: 92%;
+    padding-left: 43px;
+    margin-left: 28px;
+}
+
+.custom-form2 {
+    width: 92%;
+    padding-left: 43px;
+    margin-left: 12px;
+}
+
+.custom-textarea {
+    width: 92%;
+    margin-left: 29px;
+}
+
 /*.carousel-item {
     height: 430px;
 }
