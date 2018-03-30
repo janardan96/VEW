@@ -50,7 +50,7 @@ p {
     width: 1024px;
     margin: auto;
     padding: 4px 0px;
-/*
+    /*
     background-color: red;*/
 }
 
@@ -84,3 +84,138 @@ nav {
 nav ul li {
     display: inline-block;
 }
+
+/*--service--*/
+
+#service {
+    background-image: url(../assets/slics/services-background-iamges.jpg);
+}
+
+.custom-service-col {
+    padding-top: 60px;
+}
+
+.service-our {
+    color: black;
+}
+
+.service-service {
+    color: #3787dc;
+}
+
+.custom-service-p {
+    font-size: 15px;
+    line-height: 27px;
+    padding: 0px 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--mission--*/
+
+#mission {
+    padding-top: 28px;
+    padding-bottom: 82px;
+    background-image: url(../assets/slics/our-mission-background-image.png);
+    background-repeat: no-repeat;
+}
+
+.custom-mission-p {
+    font-size: 15px;
+    line-height: 25px;
+    color: white;
+    padding: 0px 228px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-servic-mission-h {
+    color: white;
+    font-size: 25px;
+}
+
+.first {
+    margin-right: 4px;
+    margin-bottom: 6px;
+    height: 2px;
+    width: 44px;
+    border-radius: 10px;
+    background-color: #d18815;
+}
+
+.second {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #d18815;
+}
+
+.third {
+    margin-right: 4px;
+    margin-bottom: 3px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #d18815;
+}
+
+.first-back {
+    margin-left: 4px;
+    margin-bottom: 3px;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: #d18815;
+}
+
+.second-back {
+    margin-left: 4px;
+    margin-bottom: 4px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #d18815;
+}
+
+.third-back {
+    margin-left: 4px;
+    margin-bottom: 6px;
+    height: 2px;
+    width: 44px;
+    border-radius: 10px;
+    background-color: #d18815;
+}
+
+#mission .bg {
+    background-color: white;
+}
+
+/*.carousel-item {
+    height: 430px;
+}
+
+.carousel-item img {
+    height: 100%;
+}*/
+
+/*@media only screen and (min-width:280px) and (max-width:600px) {
+    .carousel-item {
+        height: 220px;
+    }
+
+    .carousel-item img {
+        height: 100%;
+    }
+}*/
+
+/*
+.carousel1,
+.carousel2,
+.carousel3,
+.carousel4,
+.carousel5,
+.carousel6,
+.carousel7 {
+    background-size: cover;
+    background: url(../home/images/banner1.jpg) no-repeat center;
+}*/
