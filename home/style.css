@@ -129,14 +129,14 @@ nav ul li {
 
 .custom-servic-mission-h {
     color: white;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .first {
     margin-right: 4px;
     margin-bottom: 6px;
     height: 2px;
-    width: 44px;
+    width: 34px;
     border-radius: 10px;
     background-color: #d18815;
 }
@@ -181,7 +181,7 @@ nav ul li {
     margin-left: 4px;
     margin-bottom: 6px;
     height: 2px;
-    width: 44px;
+    width: 34px;
     border-radius: 10px;
     background-color: #d18815;
 }
@@ -255,6 +255,8 @@ form {
     /*service*/
     #mission {
         padding-bottom: 0px;
+        background-image: linear-gradient(to right bottom, rgb(58, 133, 215), rgba(12, 53, 72, 0.8)), url(../assets/slics/mission.jpg);
+        background-repeat: no-repeat;
     }
     .custom-service-col {
         padding-top: 20px;
@@ -267,7 +269,7 @@ form {
     .custom-mission-p {
         font-size: 14px;
         line-height: 20px;
-        padding: 10px 0px;
+        padding: 15px 10px;
     }
     .custom-about {
         margin-top: 25px;
