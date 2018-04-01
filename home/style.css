@@ -95,6 +95,10 @@ nav ul li {
     padding-top: 60px;
 }
 
+.custom-img img {
+    width: 100%;
+}
+
 .service-our {
     color: black;
 }
@@ -230,6 +234,18 @@ form {
     margin-left: 12px;
 }
 
+.custom-pos1 {
+    top: 27%;
+    left: 18%;
+    font-size: 22px;
+
+}
+
+.custom-pos2 {
+    top: 27%;
+    left: 11%;
+}
+
 .custom-textarea {
     width: 92%;
     margin-left: 29px;
@@ -288,13 +304,13 @@ form {
     /*contact us*/
     .custom-form1 {
         width: 89%;
-        padding-left: 43px;
+        padding-left: 10%;
         margin-left: 25px;
 
     }
     .custom-form2 {
         width: 89%;
-        padding-left: 43px;
+        padding-left: 10%;
         margin-left: 25px;
     }
     .custom-textarea {
@@ -303,7 +319,15 @@ form {
     }
     .custom-about-contact-col {
         width: 92%;
+        border-right: 2px solid #dbdbdb;
         height: 368px;
+    }
+    .custom-pos1,
+    custom-pos2 {
+        top: 27%;
+        left: 11%;
+        font-size: 22px;
+
     }
 
 }
