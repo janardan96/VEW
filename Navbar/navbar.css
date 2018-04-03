@@ -38,6 +38,15 @@
     margin-right: 10px;
 }
 
+
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,
+.fa-linkedin:hover,
+.fa-google-plus-square:hover {
+    transform: scale(1.2);
+    transition: all 0.1s;
+}
+
 /* Navbar-header */
 
 .fixed-top {
@@ -76,11 +85,12 @@ nav:after {
 
 nav .container {
     position: relative;
-    transition: all 0.3s;
+
 }
 
 .allWidth {
-    max-width: 92%;
+    transition: all 0.3s;
+    max-width: 92% !important;
 }
 
 .navigation {
@@ -129,6 +139,7 @@ nav .container {
     cursor: pointer;
     z-index: 100;
     display: none;
+    transition: all 0.3s;
 }
 
 .noSelect {
@@ -194,24 +205,91 @@ nav .container {
     }
 }
 
-@media only screen and (min-width:280px) and (max-width:990px) {
-
-    /* nav */
-    .navigation ul {
-        visibility: hidden;
-    }
-
+@media only screen and (min-width:280px) and (max-width: 990px) {
+    /* logo  */
     .logo-brand img {
         width: 85px;
     }
 
-    /* menu */
+    /* menu button and navigation options */
     .menu {
         display: block;
-        top: 14px;
+        top: 17px;
+    }
+
+    /* span color change  & start click */
+    .menuColor {
+        background-color: white !important;
+    }
+
+    .navigation {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        display: block;
+        width: 400px;
+        height: 100vh;
+        background-color: rgba(46, 145, 239, 0.97);
+        /* siding it */
+        transform: translateX(100%);
+        transition: all 0.3s ease-out;
+    }
+
+    .navigation_background {
+        display: block;
+        width: 200%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        transition: all 0.3s ease-out;
+        z-index: 0;
+        visibility: hidden;
+        transition: all 0.1s;
+    }
+    
+    .navBackActive {
+        visibility: visible;
+    }
+
+    .showNav {
+        transform: translateX(0px);
+    }
+
+    .navigation ul {
+        position: relative;
+        top: 250px;
+        left: 0px;
+        transform: translateY(-50%);
+    }
+    .navigation ul li {
+        display: block;
+        padding-left: 30px;
+    }
+
+    .navigation ul li:hover {
+        background-color: #0a0a0a !important;
+        padding-left: 50px;
+    }
+    .navigation ul li a {
+        color: white !important;
+        display: block;
+        padding: 5px 0px;
     }
 }
 
+
+@media only screen and (min-width:280px) and (max-width:600px) {
+
+    .navigation ul {
+        top: 240px;
+        transform: translateY(-50%);
+    }
+    .navigation {
+        width: 230px;
+    }
+}
 
 @media only screen and (min-width:280px) and (max-width:500px) {
 

@@ -23,16 +23,11 @@
 
 #service {
     background-image: url(../assets/slics/services-background-iamges.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     padding: 20px 0px;
-}
-
-.service-our {
-    color: black;
-}
-
-.service-service {
-    color: #3787dc;
 }
 
 #service img {
@@ -56,6 +51,8 @@
     color: #292929;
     margin-bottom: 0px;
 }
+
+
 
 /* mission */
 
@@ -149,6 +146,8 @@
     position: relative;
     color: #414141;
 }
+
+
 
 
 /*.service-our {
@@ -336,6 +335,10 @@
 
 /*--about--*/
 
+#contact {
+    margin-bottom: 20px;
+}
+
 .custom-about {
     margin-top: 50px;
 }
@@ -424,13 +427,14 @@ form {
 .custom-pos1 {
     top: 27%;
     left: 15%;
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
 .custom-pos2 {
     top: 27%;
     left: 11%;
+    font-size: 20px;
 }
 
 .custom-textarea {
@@ -441,6 +445,9 @@ form {
 .btn {
     color: white;
     background-color: black;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 0px;
 }
 
 
@@ -464,17 +471,16 @@ form {
 
     .coustom-service-content p {
         padding: 10px 0px;
-        font-size: 14px;
     }
-    .custom-servic-mission-h {
-        font-size: 21px;
-    }
+
     .service_img {
         display: none;
     }
+
+    /* mission */
     #mission {
         padding-bottom: 0px;
-        background-image: linear-gradient(to right bottom, rgb(58, 133, 215), rgba(12, 53, 72, 0.8)), url(../assets/slics/mission.jpg);
+        background-image: linear-gradient(to right bottom, rgb(58, 133, 215), rgba(12, 53, 72, 0.8)), url('images/mission.jpg');
         background-repeat: no-repeat;
     }
     .custom-mission-p {
@@ -484,11 +490,47 @@ form {
         font-size: 24px;
     }
     .custom-pos1 {
-        left: 18%;
+        left: 12%;
     }
     .custom-pos2 {
-        left: 16%;
+        left: 10%;
     }
+    .custom-effect3 {
+        max-width: 500px !important;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .custom-effect4 {
+        max-width: 500px !important;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .custom-effect4:after {
+        bottom: 8px;
+    }
+}
+
+/*--only for forms--*/
+
+@media only screen and (min-width:574px) and (max-width:767px) {
+    .custom-width {
+        max-width: 640px;
+    }
+    .custom-about-p {
+        padding: 15px 34px;
+    }
+    .custom-form1 {
+        width: 90%;
+        padding-left: 29px;
+        margin-left: 16px;
+    }
+    .custom-textarea {
+        margin-left: 17px;
+    }
+    .custom-form2 {
+        padding-left: 30px;
+    }
+
 
 }
 
@@ -511,13 +553,10 @@ form {
     #service {
         padding: 70px 0px;
     }
-    .custom-servic-mission-h {
-        font-size: 21px;
-    }
 
     .coustom-service-content p {
         padding: 6px 39px;
-        font-size: 8px;
+        font-size: 9px;
         line-height: 12px;
     }
 
@@ -544,6 +583,11 @@ form {
         line-height: 20px;
         padding: 15px 10px;
     }
+    .custom-servic-mission-h {
+        font-size: 22px;
+    }
+
+
 
     /* product */
     .product-header p {
@@ -585,7 +629,6 @@ form {
     .coustom-par-fix p {
         padding: 2px 0px;
     }
-
 
     /*--about and contact*/
     .custom-about {
@@ -634,29 +677,4 @@ form {
         font-size: 22px;
 
     }
-
-}
-
-/*--only for forms--*/
-
-@media only screen and (min-width:574px) and (max-width:767px) {
-    .custom-width {
-        max-width: 640px;
-    }
-    .custom-about-p {
-        padding: 15px 34px;
-    }
-    .custom-form1 {
-        width: 90%;
-        padding-left: 29px;
-        margin-left: 16px;
-    }
-    .custom-textarea {
-        margin-left: 17px;
-    }
-    .custom-form2 {
-        padding-left: 30px;
-    }
-
-
 }
