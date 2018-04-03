@@ -336,6 +336,13 @@
     <!-- coustom script -->
     <script src="home/script.js"></script>
     <script src="Navbar/navbar.js"></script>
+    <script>
+        $('#carouselExampleIndicators').hover(function() {
+            $(this).carousel('pause')
+        }, function() {
+            $(this).carousel('cycle')
+        })
+    </script>
 </body>
 
 </html>
