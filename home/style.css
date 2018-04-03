@@ -355,9 +355,9 @@
     z-index: -1;
     position: absolute;
     content: "";
-    bottom: 8px;
+    bottom: 11px;
     left: 19px;
-    width: 50%;
+    width: 54%;
     top: 80%;
     max-width: 300px;
     background: #777;
@@ -410,20 +410,20 @@ form {
 }
 
 .custom-form1 {
-    width: 92%;
-    padding-left: 43px;
-    margin-left: 15px;
+    width: 88%;
+    padding-left: 38px;
+    margin-left: 25px;
 }
 
 .custom-form2 {
-    width: 92%;
-    padding-left: 43px;
+    width: 86%;
+    padding-left: 38px;
     margin-left: 12px;
 }
 
 .custom-pos1 {
     top: 27%;
-    left: 12%;
+    left: 15%;
     font-size: 22px;
 
 }
@@ -434,8 +434,13 @@ form {
 }
 
 .custom-textarea {
-    width: 95%;
-    margin-left: 16px;
+    width: 90%;
+    margin-left: 28px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
 }
 
 
@@ -629,5 +634,29 @@ form {
         font-size: 22px;
 
     }
+
+}
+
+/*--only for forms--*/
+
+@media only screen and (min-width:574px) and (max-width:767px) {
+    .custom-width {
+        max-width: 640px;
+    }
+    .custom-about-p {
+        padding: 15px 34px;
+    }
+    .custom-form1 {
+        width: 90%;
+        padding-left: 29px;
+        margin-left: 16px;
+    }
+    .custom-textarea {
+        margin-left: 17px;
+    }
+    .custom-form2 {
+        padding-left: 30px;
+    }
+
 
 }
