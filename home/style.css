@@ -13,12 +13,6 @@
     top: 0px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    right: 0;
-    top: 75px;
-}
-
 /* services */
 
 #service {
@@ -387,7 +381,8 @@ form {
     padding-top: 30px;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border: 1px solid #0099cb !important;
     box-shadow: none !important;
 }
