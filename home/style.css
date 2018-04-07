@@ -462,6 +462,14 @@ form {
     }
 }
 
+/*for icon*/
+
+@media only screen and (min-width:767px) and (max-width:990px) {
+    .custom-pos1 {
+        left: 40px !important;
+    }
+}
+
 @media only screen and (min-width:500px) and (max-width:990px) {
 
     /* services */
@@ -641,7 +649,8 @@ form {
     .custom-about-p {
         font-size: 15px;
         padding-top: 16px!important;
-        padding-left: 32px!important;
+        width: 90%;
+        margin: 0 auto;
         padding: 0px;
     }
 
@@ -665,7 +674,10 @@ form {
         /*
         width: 92%;*/
         border-right: 2px solid #dbdbdb;
-        height: 395px;
+        height: 305px;
+    }
+    .custom-height {
+        height: 405px;
     }
     .custom-margin {
         margin-bottom: 20px;
@@ -677,4 +689,25 @@ form {
         font-size: 22px;
 
     }
+}
+
+/*for contact 500px*/
+
+@media only screen and (min-width:501px) and (max-width:574px) {
+    .custom-height {
+        height: 400px;
+    }
+    .custom-form2 {
+        width: 88%;
+        padding-left: 38px;
+        margin-left: 26px;
+    }
+    .custom-pos1 {
+        left: 9%;
+    }
+    .custom-pos2 {
+        left: 9%;
+    }
+}
+
 }
