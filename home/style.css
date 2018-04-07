@@ -3,6 +3,7 @@
     margin: 0px;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
     tap-highlight-color: rgba(255, 255, 255, 0);
+    scroll-behavior: smooth;
 }
 
 /* banner */
@@ -10,7 +11,6 @@
 .carousel {
     position: relative;
     top: 0px;
-    padding-top: 93px;
 }
 
 .carousel-control-prev,
@@ -387,6 +387,11 @@ form {
     padding-top: 30px;
 }
 
+input:focus, textarea:focus {
+    border: 1px solid #0099cb !important;
+    box-shadow: none !important;
+}
+
 .custom-effect4 {
     position: relative;
 }
@@ -545,9 +550,6 @@ form {
 @media only screen and (min-width:280px) and (max-width:500px) {
 
     /* banner */
-    .carousel {
-        padding-top: 76.68px;
-    }
     .carousel-item img {
         width: 152%!important;
         margin-left: -27%;
@@ -708,6 +710,4 @@ form {
     .custom-pos2 {
         left: 9%;
     }
-}
-
 }

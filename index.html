@@ -1,4 +1,4 @@
-<!-- Developed by D4Club.com -->
+﻿<!-- Developed by D4Club.com -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>Varun Engineering Works</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loader/loader.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">-->
@@ -19,6 +20,18 @@
 </head>
 
 <body>
+
+    <section id="compatible">
+        <p>Please use another device <br>This device is too small for this website..</p>
+    </section>
+
+    <!-- loader -->
+
+    <div class="loader_container fixed-top">
+        <p>Varun Engineering Work</p>
+        <div class="loader"></div>
+        <p>Loading . . .</p>
+    </div>
 
     <!-- navbar/header -->
 
@@ -46,10 +59,10 @@
 
 
         <!-- nav -->
-        <nav class="fixed-top">
+        <nav>
             <div class="container">
                 <div class="logo-brand">
-                    <img src="assets/slics/logo.png" alt="logo image">
+                    <img src="Navbar/images/logo.png" alt="logo image">
                 </div>
 
                 <span class="navigation_background">
@@ -58,11 +71,11 @@
 
                 <div class="navigation">
                     <ul type="none">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Products</a></li>
+                        <li><a href="#carouselExampleIndicators">Home</a></li>
+                        <li><a href="#coustom_product_category">Products</a></li>
                         <li><a href="#">Enquiry</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#about_us">About us</a></li>
+                        <li><a href="#contact_us">Contact us</a></li>
                     </ul>
 
                 </div>
@@ -106,10 +119,10 @@
                 <img class="d-block w-100" src="home/images/5.jpg" alt="Fifth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="home/images/1.jpg" alt="Sixth slide">
+                <img class="d-block w-100" src="home/images/6.jpg" alt="Sixth slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="home/images/1.jpg" alt="Seventh slide">
+                <img class="d-block w-100" src="home/images/7.jpg" alt="Seventh slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -187,7 +200,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <a href="#" class="cont mx-auto d-block">
+                    <a href="products/1/1/product.html" class="cont mx-auto d-block">
                         <img class="img-fluid coustom-product-img" src="home/images/cat-1.jpg" alt="product_cat-1">
                         <p>Work Holding Chuks</p>
                         <span class="effect">
@@ -251,10 +264,11 @@
     </section>
 
     <!--about and contact us-->
+    < <!--about and contact us-->
     <section id="contact">
         <div class="container custom-width ">
             <div class="row custom-about">
-                <div class="col-lg-6 col-sm-12 text-center custom-effect3">
+                <div id="about_us" class="col-lg-6 col-sm-12 text-center custom-effect3">
                     <div class="product-header">
                         <p>
                             <i class="fas fa-circle"></i>
@@ -271,7 +285,7 @@
                         <p class="text-center custom-about-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, maxime amet enim eligendi dolore illum distinctio excepturi magnam cum nesciunt rerum, adipisci eos impedit porro culpa minus? Quisquam, necessitatibus, impedit.</p>
                     </div>
                 </div>
-                <div class=" col-lg-6 col-sm-12 text-center custom-effect4">
+                <div id="contact_us" class="col-lg-6 col-sm-12 text-center custom-effect4">
                     <div class="product-header">
                         <p>
                             <i class="fas fa-circle"></i>
@@ -340,15 +354,15 @@
                 </div>
 
                 <div class="contactmail col-lg-12">
-                    <a href="#">Home</a>
+                    <a href="#carouselExampleIndicators">Home</a>
                     <p>|</p>
-                    <a href="#">Products</a>
+                    <a href="#coustom_product_category">Products</a>
                     <p>|</p>
                     <a href="#">Enquiry</a>
                     <p>|</p>
-                    <a href="#">About us</a>
+                    <a href="#about_us">About us</a>
                     <p>|</p>
-                    <a href="#">Contact us</a>
+                    <a href="#contact_us">Contact us</a>
                 </div>
 
                 <div class="contact-number col-lg-12">
@@ -358,6 +372,7 @@
             </div>
         </div>
     </fotter>
+
 
     <!-- bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
