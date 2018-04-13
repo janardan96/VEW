@@ -111,31 +111,31 @@
 
                     <div class="col-md-12 productName">
                         <h6>ENQUIRY</h6>
-                        <p>3 - Jaw & 6 - Jaw Accuracy Adjustment Chucks</p>
+                        <p>3 - Jaw &amp; 6 - Jaw Accuracy Adjustment Chucks</p>
                     </div>
 
                     <div class="left-side col-md-5 col-sm-12 col-12">
-                        <form onsubmit="return false">
+                        <form id="contact" method="post" action="send">
                             <div class="form-row">
                                 <div class="  form-group col-sm-12 col-12">
-                                    <input type="text" class="form-control" id="name" required="">
+                                    <input type="text" class="form-control" id="name" name="fullName" required="">
                                     <label class="required_sign" for="inputAddress">Name</label>
                                 </div>
                                 <div class="  form-group col-sm-12 col-12">
-                                    <input type="email" class="form-control" id="inputEmail" required="">
+                                    <input type="email" class="form-control" id="inputEmail" name="mailId" required="">
                                     <label class="required_sign" for="inputEmail">Email</label>
                                 </div>
                                 <div class="  form-group col-sm-12 col-12">
-                                    <input type="text" class="form-control" id="adress">
-                                    <label for="inputAddress">Adress</label>
+                                    <input type="text" class="form-control" id="address" name="address">
+                                    <label for="inputAddress">Address</label>
                                 </div>
                                 <div class="  form-group col-md-6 col-sm-6 col-12">
-                                    <input type="text" class="form-control" id="city" required="">
+                                    <input type="text" class="form-control" id="city" name="city" required="">
                                     <label class="required_sign" for="inputCity">City</label>
                                 </div>
                                 <div class="form-group col-md-1 col-sm-0 col-0 spacer"></div>
                                 <div class="  form-group col-md-5 col-sm-6 col-12">
-                                    <input type="text" class="form-control" id="state">
+                                    <input type="text" class="form-control" id="state" name="state">
                                     <label for="inputState">State</label>
                                 </div>
                             </div>
@@ -143,25 +143,25 @@
                     <div class="right-side col-md-7 col-sm-12 col-12">
                         <div class="form-row">
                             <div class="  form-group col-md-6 col-sm-6 col-12">
-                                <input type="text" class="form-control" id="country" required="">
+                                <input type="text" class="form-control" id="country" name="country" required="">
                                 <label class="required_sign" for="inputCountry">Country</label>
                             </div>
                             <div class="  form-group col-md-1 col-sm-0 col-0 spacer"></div>
                             <div class="  form-group col-md-5 col-sm-6 col-12">
-                                <input type="text" class="form-control" id="zip">
+                                <input type="text" class="form-control" id="zip" name="zipCode">
                                 <label for="inputZipCode">Zip Code</label>
                             </div>
 
                             <div class="  form-group col-sm-12 col-12">
-                                <textarea class="form-control" id="inputMessage" rows="3"></textarea>
+                                <textarea class="form-control" id="inputMessage" rows="3" name="message"></textarea>
                                 <label for="exampleFormControlTextarea1">Message</label>
                             </div>
 
                             <div class="animate_area">
-                                <button>
-                                            <p>Send</p>
-                                            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="paper-plane-icon" d="M462,54.955L355.371,437.187l-135.92-128.842L353.388,167l-179.53,124.074L50,260.973L462,54.955zM202.992,332.528v124.517l58.738-67.927L202.992,332.528z"></path>
-                                            </svg>
+                                <button type="submit">
+                                        <p>Send</p>
+                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path id="paper-plane-icon" d="M462,54.955L355.371,437.187l-135.92-128.842L353.388,167l-179.53,124.074L50,260.973L462,54.955zM202.992,332.528v124.517l58.738-67.927L202.992,332.528z"></path>
+                                        </svg>
                                     </button>
                             </div>
 
